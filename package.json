@@ -1,6 +1,6 @@
 {
   "name": "turnip-beams",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A declarative, structure-agnostic, TypeScript-centric command handler for revolt.js",
   "main": "dist/index.js",
   "type": "module",
