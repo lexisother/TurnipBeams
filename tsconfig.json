@@ -3,6 +3,7 @@
     "include": ["src/**/*"], // This makes it so that the compiler won't compile anything outside of "src".
     //"exclude": ["src/**/*.test.ts"], // Exclude .test.ts files since they're for Jest only.
     "compilerOptions": {
+        "skipLibCheck": true,
         // Project Structure //
         "rootDir": "src", // rootDir only affects the STRUCTURE of the folders, not what gets compiled. For extra measure, make sure the structure conforms to "src".
         "outDir": "dist", // Likewise, outDir only chooses which folder to compile to. Prevent the compiler from creating JS files right next to source files.

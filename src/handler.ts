@@ -52,7 +52,7 @@ export function attachMessageHandlerToClient(client: Client) {
     const channel = message.channel!;
     const server = channel!.server;
     const send = channel!.sendMessage.bind(channel);
-    const text = content.toString();
+    const text = content!.toString();
     const menu = {
       author,
       channel,

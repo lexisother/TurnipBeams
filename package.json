@@ -10,8 +10,8 @@
     "prepack": "npm run build"
   },
   "dependencies": {
-    "revolt.js": "6.0.0-rc.4",
-    "glob": "^7.2.0"
+    "glob": "^7.2.0",
+    "revolt.js": "6.0.13"
   },
   "devDependencies": {
     "@types/glob": "^7.2.0",
